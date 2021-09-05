@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Nodejs and pm2 -r !\n'
+  const msg = 'Hello AWS and Devops Architecture programme !\n'
   res.end(msg);
 });
 
